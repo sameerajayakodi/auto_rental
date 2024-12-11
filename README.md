@@ -11,8 +11,8 @@ A JavaFX-based application for managing vehicle rentals. This project demonstrat
 - Manage details like:
   - Vehicle Model
   - Brand
-  - Type (Car, Van, SUV, etc.)
-  - Availability
+  - Color
+  - Qty
   - Rental Price Per Day
 
 ### Order Management
@@ -43,9 +43,8 @@ A JavaFX-based application for managing vehicle rentals. This project demonstrat
 ```
 AutoRentalSystem/
 ├── src/
-│   ├── model/         # Database models
-│   ├── view/          # FXML files for UI
-│   ├── controller/    # Application logic
+│   ├── model/         # Database models and Controllers
+│   ├── controller/    # Application Controllers
 │   └── utils/         # Utility classes (e.g., Singleton DB connection)
 ├── resources/
 │   ├── css/           # External CSS styles
@@ -69,7 +68,7 @@ AutoRentalSystem/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/auto-rental-system.git
+   git clone https://https://github.com/sameerajayakodi/auto_rental.git
    ```
 2. Import the project into your favorite IDE (e.g., IntelliJ IDEA, Eclipse).
 3. Set up the database:
@@ -106,5 +105,5 @@ Contributions are welcome! Feel free to fork this repository and submit pull req
 
 ## 📧 Contact
 For questions or feedback, feel free to reach out:
-- **Email:** your-email@example.com
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+- **Email:** sameerajayakodi456@gmail.com
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/sameera-jayakodi-6a3a81226/)
