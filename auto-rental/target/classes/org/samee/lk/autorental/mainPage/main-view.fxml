@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750" prefWidth="1500" stylesheets="@main.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.samee.lk.autorental.controllers.MainViewControler">
+    <children>
+        <AnchorPane prefHeight="689.0" prefWidth="1460.0">
+            <children>
+                <TableView fx:id="tblVehicle" layoutY="58.0" prefHeight="658.0" prefWidth="930.0">
+                    <columns>
+                        <TableColumn prefWidth="70.40002250671387" text="ID" />
+                        <TableColumn prefWidth="188.00012969970703" text="Brand" />
+                        <TableColumn prefWidth="172.79995727539062" text="Model" />
+                        <TableColumn prefWidth="124.79998779296875" text="Color" />
+                        <TableColumn prefWidth="136.79998779296875" text="Year" />
+                        <TableColumn minWidth="0.0" prefWidth="96.0" text="Qty" />
+                        <TableColumn prefWidth="166.39996337890625" text="Price" />
+                    </columns>
+                </TableView>
+                <Button fx:id="rentalButton" layoutX="1022.0" layoutY="74.0" mnemonicParsing="false" onAction="#handleRental" prefHeight="194.0" prefWidth="330.0" style="-fx-background-color: #1877F2;" text="Rental Vehicle" />
+            <Button fx:id="backBtn" layoutX="6.0" layoutY="6.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="48.0" prefWidth="330.0" text="Back" />
+            <Button fx:id="addvehicleBtn" layoutX="1022.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleAddVehicle" prefHeight="48.0" prefWidth="330.0" style="-fx-background-color: green;" text="Add Vehicle +" />
+            <Button fx:id="vehicleDeleteBtn" layoutX="1022.0" layoutY="635.0" mnemonicParsing="false" onAction="#handleVehicleDelete" prefHeight="48.0" prefWidth="330.0" style="-fx-background-color: #C70000;" text="Delete Vehicle" />
+            <Button fx:id="vehicleupdateBtn" layoutX="1022.0" layoutY="371.0" mnemonicParsing="false" onAction="#handleVehicleUpdate" prefHeight="48.0" prefWidth="330.0" text="Update Vehicle" />
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>
